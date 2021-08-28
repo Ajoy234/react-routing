@@ -1,0 +1,13 @@
+.topbar{
+    height: 50px;
+    background-color: salmon;
+}
+
+.topbarList{
+    list-style: none;
+    display: flex;
+    
+}
+.topbarListItem{
+    flex: 3;
+}
