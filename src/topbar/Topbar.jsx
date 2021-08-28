@@ -4,21 +4,25 @@ import { Link } from "react-router-dom"
 export default function Topbar() {
     return (
         <div className="topbar">
-            <ul className="topbarList">
+            
+            <div className="topbarItemLeft">
 
-                <Link to="/">
-                <li className="topbarListItem">Home</li>
-                </Link>
-                <Link to="/about">
-                <li className="topbarListItem">About</li>
-                </Link>
-                <Link to="/skill">
-                <li className="topbarListItem">Skill</li>
-                </Link>
+                <ul className="topbarListMenu">
 
-                
-                
-            </ul>
+                    <Link className="abc" to="/">
+                    <li className="topbarList">Home</li>
+                    </Link>
+                    <Link className="abc" to="/about">
+                    <li className="topbarList">About</li>
+                    </Link>
+                    <Link className="abc" to="/skill">
+                    <li className="topbarList">Skill</li>
+                    </Link>
+                </ul>
+            </div>
+            
+            
+            
         </div>
     )
 }

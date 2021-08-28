@@ -1,5 +1,5 @@
 
-import './App.css';
+
 import Skills from './pages/skills/Skills';
 import About from './pages/about/About';
 import Home from './pages/home/Home';
@@ -9,7 +9,7 @@ import { BrowserRouter,Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    
       <BrowserRouter>
         <Topbar />
         <Route path="/" exact component={Home}><Home /></Route>
@@ -19,7 +19,7 @@ function App() {
         
         
       </BrowserRouter>
-    </div>
+    
   );
 }
 

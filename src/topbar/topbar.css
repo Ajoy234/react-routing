@@ -1,13 +1,33 @@
-.topbar{
-    height: 50px;
-    background-color: salmon;
-}
 
-.topbarList{
-    list-style: none;
+.topbar{
+    background-color: rgb(160, 129, 129);
     display: flex;
     
 }
-.topbarListItem{
-    flex: 3;
+
+.topbarItemLeft{
+    background-color: chocolate;
+    flex: 1;
+    
 }
+.topbarListMenu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.topbarList{
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+
+    
+}
+.topbarList:hover{
+    color: rgb(6, 15, 15);
+}
+.abc{
+    text-decoration: none;
+}
+
+
